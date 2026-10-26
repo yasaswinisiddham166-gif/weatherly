@@ -31,7 +31,7 @@ A responsive React weather dashboard that shows current conditions, detailed wea
 
 ### Install dependencies
 
-bash
+```bash
 npm install
 
 ### Start the development server
