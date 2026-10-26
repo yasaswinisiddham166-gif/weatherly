@@ -5,9 +5,9 @@ A responsive React weather dashboard that shows current conditions, detailed wea
 ## Features
 
 - Search weather by city name
-- View the current temperature, condition, and weather icon
-- See feels-like temperature, humidity, wind speed, pressure, visibility, sunrise, and sunset
-- Browse an hourly outlook and five-day forecast
+- View the current temperature, weather condition, and weather icon
+- See feels-like temperature, humidity, wind speed, atmospheric pressure, visibility, sunrise, and sunset
+- Browse an hourly weather outlook and five-day forecast
 - Switch between Celsius and Fahrenheit
 - Access the five most recently searched cities
 - View current weather for Hyderabad, Bengaluru, Chennai, Mumbai, and Delhi
@@ -27,14 +27,43 @@ A responsive React weather dashboard that shows current conditions, detailed wea
 
 ### Requirements
 
-- Node.js and npm
+- Node.js
+- npm
 
-### Install dependencies
+### Installation
+
+Clone the repository or open the project folder, then run:
 
 ```bash
 npm install
+```
 
-### Start the development server
+### Start the Development Server
 
 ```bash
 npm run dev
+```
+
+Open the local URL displayed in your terminal, usually `http://localhost:5173/`.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview the Production Build
+
+```bash
+npm run preview
+```
+
+## Notes
+
+- Open-Meteo provides weather forecasts and geocoding services.
+- Browser geolocation requires user permission and works in secure contexts, such as HTTPS or localhost.
+- Reverse geocoding depends on the availability of the OpenStreetMap Nominatim service.
+
+## License
+
+This project is intended for educational and personal use.
